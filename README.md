@@ -50,7 +50,7 @@ This is a simple project where someone can add his favourite books with their au
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Coming soon...](#)
+- [Coming soon...](httpss://)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
