@@ -126,7 +126,6 @@ To run this project:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Design the page.**
-- [ ] **Refactor w.r.t ES6**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
