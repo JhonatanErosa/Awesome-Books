@@ -8,8 +8,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-  - [🚀 Live Presentation](#live-presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
 - [👥 Authors](#authors)
@@ -43,22 +41,6 @@ This is a simple project where someone can add his favourite books with their au
 ### Key Features <a name="key-features"></a>
 
 This is a simple project where someone can add his favourite books with their author's informaiton. It also store those books in the local storage.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Coming soon...](httpss://)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE Presentation -->
-
-## 🚀 Live Presentation <a name="live-presentation"></a>
-
-- [Coming soon...](httpss://www.loom.com/share/99945e54f72f40b2b68f8de895a2824a?sid=37dd5e35-6833-4998-b1a4-1753d9fae8e5)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,7 +108,6 @@ To run this project:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Design the page.**
-- [ ] **Refactor w.r.t ES6**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

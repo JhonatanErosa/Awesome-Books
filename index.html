@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome books</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Awesome books</h1>
-    <div id="booksContainer">
+    <h1>All Awesome books</h1>
+    <div class="booksContainer" id="booksContainer">
 
     </div>
-    <form action="" id="form">
-        <input type="text" name="title" placeholder="Title" id="title">
-        <input type="text" name="author" placeholder="Author" id="author">
-        <button type="submit" class="addBtn" id="addBtn">Add</button>
-    </form>
+    <section class="addSection">
+        <hr>
+        <h2>Add a new book</h2>
+        <form class="form" id="form">
+            <input type="text" name="title" placeholder="Title" id="title">
+            <input type="text" name="author" placeholder="Author" id="author">
+            <button type="submit" class="addBtn" id="addBtn">Add</button>
+        </form>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
