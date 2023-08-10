@@ -7,7 +7,8 @@
   font-family: 'lato', sans-serif;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -38,7 +39,12 @@ html, body {
   font-weight: 500;
 }
 
-.navItems li:nth-child(3){
+.contactList li {
+  list-style: inside;
+  padding-left: 1rem;
+}
+
+.navItems li:nth-child(3) {
   border-right: none;
 }
 
@@ -139,7 +145,6 @@ input {
 }
 
 .contactSection {
-  display: inline;
   margin: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -153,11 +158,6 @@ input {
 
 .infoText {
   margin: 1rem 0;
-}
-
-.contactList li {
-  list-style: inside;
-  padding-left: 1rem;
 }
 
 .copyright {
