@@ -4,16 +4,19 @@ const contact = document.querySelector("#Contact");
 const listSection = document.querySelector("#listSection");
 const addSection = document.querySelector("#addSection");
 const contactSection = document.querySelector("#contactSection");
+
 list.addEventListener("click", () => {
   listSection.classList.replace("listSectionHide", "listSection");
   addSection.classList.replace("addSection", "addSectionHide");
   contactSection.classList.replace("contactSection", "contactSectionHide");
 });
+
 addNew.addEventListener("click", () => {
   listSection.classList.replace("listSection", "listSectionHide");
   addSection.classList.replace("addSectionHide", "addSection");
   contactSection.classList.replace("contactSection", "contactSectionHide");
 });
+
 contact.addEventListener("click", () => {
   listSection.classList.replace("listSection", "listSectionHide");
   addSection.classList.replace("addSection", "addSectionHide");
@@ -38,8 +41,10 @@ function getCurrentDate() {
     options
   )} ${formatHours}:${minutes}:${seconds} <small>${format}</small>`;
 }
+
 function formatTime(value) {
   return value < 10 ? `0${value}` : value;
 }
+
 getCurrentDate();
 setInterval(getCurrentDate, 1000);
