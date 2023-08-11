@@ -10,6 +10,11 @@
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -69,6 +74,13 @@ Clone this repository to your desired folder:
   git clone git@github.com:JhonatanErosa/Awesome-Books.git
 ```
 
+
+### Install
+
+Install this dependencies:
+
+npm install
+
 ### Usage
 
 To run this project:
@@ -76,6 +88,25 @@ To run this project:
 ```sh
   Open the index.html file in your browser or live server
 ```
+
+### Run tests
+
+To run tests, run the following command:
+
+<li>HTML linters:</li>
+
+npx hint .
+<li>CSS linters:</li>
+
+npx stylelint "**/*.{css,scss}"
+<li>JavaScript linters:</li>
+npx eslint .
+
+### Deployment
+
+You can deploy this project using:
+
+<a href='https://github.com/'>GitHub</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
