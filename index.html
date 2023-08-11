@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome books</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,500&display=swap" rel="stylesheet">
-</head>
-<body>
-    <h1>All Awesome books</h1>
-    <div class="booksContainer" id="booksContainer">
 
-    </div>
-    <section class="addSection">
-        <hr>
-        <h2>Add a new book</h2>
-        <form class="form" id="form">
-            <input type="text" name="title" placeholder="Title" id="title">
-            <input type="text" name="author" placeholder="Author" id="author">
-            <button type="submit" class="addBtn" id="addBtn">Add</button>
-        </form>
-    </section>
-    <script src="script.js"></script>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Awesome books</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,500&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div class="navBar">
+			<p>Awesome Books</p>
+			<ul class="navItems">
+				<li class="list" id="List">List</li>
+				<li class="addNew" id="AddNew">Add new</li>
+				<li class="contact" id="Contact">Contact</li>
+			</ul>
+		</div>
+		<div class="date" id="date"></div>
+	</header>
+	<section class="listSection" id="listSection">
+		<h1>All Awesome books</h1>
+	<div class="booksContainer" id="booksContainer">
+
+	</div>
+	</section>
+	<section class="addSectionHide" id="addSection">
+		<hr>
+		<h2>Add a new book</h2>
+		<form class="form" id="form">
+			<input type="text" name="title" placeholder="Title" id="title">
+			<input type="text" name="author" placeholder="Author" id="author">
+			<button type="submit" class="addBtn" id="addBtn">Add</button>
+		</form>
+	</section>
+	<section class="contactSectionHide" id='contactSection'>
+		<h2>Contact Information</h2>
+		<div class="infoContainer">
+			<div class="infoText">
+				<p>Do have any question or just want to say "Hello"?</p>
+				<p>You can reach out to us!</p>
+			</div>
+			<ul class="contactList">
+				<li>Our e-mail: mail@mail.com</li>
+				<li>Our phone number: 0043586534422</li>
+				<li>Our address: Streetname 22, 84503 City, Country</li>
+			</ul>
+		</div>
+	</section>
+	<footer class="copyright">
+		<p>Copyright...</p>
+	</footer>
+	<script src="index.js"></script>
+	<script src="script.js"></script>
 </body>
+
 </html>
